@@ -46,6 +46,29 @@ Design a site recovery strategy with Azure Site Recovery
 - Replication stops
 - VMs are brought on-line in the replicated region attached to the destination disks that were the target of replication
 
+### Recovery Services Vault
+
+#### Create a Service Vault from the Azure Portal
+
+- From the portal search for: Recovery Service Vault
+- Create a new resource group or select an existing one
+- Name the vault
+- Select the region
+- Click: Review and Create
+
+#### Select the source VMs
+
+- Select the source region
+- Select the VMS in the region
+
+#### Select the target environment
+
+- Resources can be created manually or by ASR
+- Adjust the replication settings
+- Start replication
+
+## Site Recovery Infrastructure
+
 ## Site Recovery Resoursce
 
 ## Failover/Fallback strategies
