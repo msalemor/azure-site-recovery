@@ -12,7 +12,8 @@ Design a site recovery strategy with Azure Site Recovery
   - Provides continous replication
 - Replication
   - Creates repliation points or app consistent snapshots
-  - Planned or Unplanned failover
+  - Planned: Zero data loss
+  - Unplanned failover: data may be lost up to the replication point (can be adjusted)
 - Recovery plans
   - coordinate how VMs are recovered
 - Azure Automation Integration
@@ -38,6 +39,12 @@ Design a site recovery strategy with Azure Site Recovery
 - Create a VNET and Subnet
 - Create a storage account
 - Resources can be pre-created by an admin or created by Azure Site Recovery
+- Data is copied from the cache storage account in the source region to the disks on the the storage account on the target region
+
+#### Failover
+
+- Replication stops
+- VMs are brought on-line in the replicated region attached to the destination disks that were the target of replication
 
 ## Site Recovery Resoursce
 
