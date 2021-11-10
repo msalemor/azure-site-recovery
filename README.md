@@ -1,4 +1,5 @@
-# azure-site-recovery
+# Azure Site Recovery
+
 Design a site recovery strategy with Azure Site Recovery
 
 ## Goals
