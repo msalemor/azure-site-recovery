@@ -10,9 +10,11 @@ Design a site recovery strategy with Azure Site Recovery
   - Replicate VM over regions
   - Replicate on-prem machines into Azure (VMWare, Physical Servers, Hyper-V)
   - Provides continous replication
-- Creates repliation points or app consistent snapshots
-- Planned or Unplanned failover
-- Recovery plans: coordinate how VMs are recovered
+- Replication
+  - Creates repliation points or app consistent snapshots
+  - Planned or Unplanned failover
+- Recovery plans
+  - coordinate how VMs are recovered
 - Azure Automation Integration
 - Replicaties Application agnostic workloads
 
